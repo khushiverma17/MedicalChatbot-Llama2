@@ -1,0 +1,87 @@
+*{
+  font-family: sans-serif;
+}
+
+.topbar {
+  border-bottom: 1px solid #E8EEE4;
+}
+
+.topbar .row {
+  align-items: center;
+  min-height: 36px;
+}
+
+.topbar .site-info a {
+  display: inline-flex;
+  align-items: center;
+  color: #A1AAA7;
+}
+
+.topbar .site-info a:hover {
+  text-decoration: none;
+}
+
+.topbar .site-info a span {
+  font-size: 16px;
+  margin-right: 6px;
+}
+
+.topbar .site-info .divider {
+  margin-left: 8px;
+  margin-right: 8px;
+  color: #BEC8B8;
+}
+.topbar .social-mini-button{
+  display: inline-block;
+  color: #A1AAA7;
+}
+.topbar .social-mini-button :hover {
+  text-decoration: none;
+  color: #6E807A;
+}
+
+.navbar .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+.active{
+  color: blue;
+}
+/* hero section page */
+
+
+
+
+
+
+/* footer section */
+.page-footer {
+  position: relative;
+  display: block;
+  padding-top: 80px;
+  padding-bottom: 16px;
+  background-color: #2D3B38;
+  color: #fff;
+}
+
+.page-footer h5 {
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.page-footer hr {
+  border-color: #4F5E5B;
+}
+
+.footer-menu {
+  position: relative;
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-menu li  a{
+  text-decoration: none;
+  color: grey;
+  font-size: medium;
+}
